@@ -1,0 +1,461 @@
+body {
+    background-color: white;
+    font-family: "Bebas Neue", cursive;
+    letter-spacing: 2px;
+    color: #686868;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.game-name {
+    margin-top: 20px;
+    font-size: 2.5rem;
+    letter-spacing: 5px;
+}
+
+.players {
+    width: 100%;
+}
+
+.player-name-user {
+    font-size: 1.5rem;
+    float: left;
+    position: relative;
+    left: 12.5%;
+}
+
+.player-name-computer {
+    font-size: 1.5rem;
+    float: right;
+    position: relative;
+    right: 12.5%;
+}
+
+.game-area {
+    display: inline-block;
+    width: 100%;
+}
+
+#user-image {
+    width: 280px;
+    height: auto;
+    float: left;
+}
+
+#computer-image {
+    width: 280px;
+    height: auto;
+    float: right;
+}
+
+.game-info {
+    width: auto;
+    display: inline-block;
+}
+
+#countdown {
+    position: relative;
+    height: auto;
+    font-size: 5rem;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.scoreboard {
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+}
+
+.round-number {
+    font-size: 1.5rem;
+}
+
+.win {
+    color: #3EA62D;
+    font-size: 1.5rem;
+}
+
+.lose {
+    color: #FF0000;
+    font-size: 1.5rem;
+}
+
+.draw {
+    color: #000000;
+    font-size: 1.5rem;
+}
+
+.buttons-area {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons-area img {
+    width: 100%;
+    height: 100%;
+}
+
+.button-style {
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding-top: 10px;
+    border-radius: 50%;
+    background-color: white;
+    border: 7.5px solid;
+    border-color: #686868;
+    width: 120px;
+    height: 120px;
+    margin: 0 50px;
+    transition: all 0.5s;
+    z-index: 1;
+}
+
+.button-style:after {
+    content: attr(data-type);
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    color: #686868;
+    position: relative;
+    top: 15px;
+}
+
+.button-style:hover {
+    background-color: #929292;
+    color: white;
+    width: 140px;
+    height: 140px;
+}
+
+.rules-area {
+    width: 100%;
+    height: auto;
+    margin: 25px auto;
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+.rules {
+    display: inline-block;
+    padding: 20px 25px 0 25px;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+@media (max-width: 1024px) {
+
+    .game-name {
+        margin-top: 50px;
+    }
+
+    .players {
+        margin-top: 100px;
+    }
+
+    .game-area {
+        margin-top: 100px;
+    }
+
+    .button-style:hover {
+        background-color: white;
+        border: 7.5px solid;
+        border-color: #686868;
+        width: 120px;
+        height: 120px;
+    }
+
+    .buttons-area {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #user-image {
+        width: 220px;
+    }
+
+    #computer-image {
+        width: 220px;
+    }
+
+    .players {
+        margin-top: 0;
+    }
+
+    .player-name-user {
+        margin-top: 50px;
+    }
+
+    .player-name-computer {
+        margin-top: 50px;
+    }
+
+    .game-name {
+        margin-top: 50px;
+    }
+
+    .game-area {
+        margin-top: 0;
+    }
+
+    .round-number {
+        margin-top: 50px;
+    }
+
+    .scoreboard {
+        margin-top: 0;
+    }
+
+    .buttons-area {
+        margin-top: 60px;
+    }
+
+    .button-style:hover {
+        background-color: white;
+        border: 7.5px solid;
+        border-color: #686868;
+        width: 120px;
+        height: 120px;
+    }
+
+    .rules {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 425px) {
+
+    #user-image {
+        width: 130px;
+        margin-top: 50px;
+    }
+
+    #computer-image {
+        width: 130px;
+        margin-top: 50px;
+    }
+
+    .players {
+        margin-top: 0;
+    }
+
+    .player-name-user {
+        margin-top: 50px;
+        font-size: 1.25rem;
+    }
+
+    .player-name-computer {
+        margin-top: 50px;
+        font-size: 1.25rem;
+    }
+
+    .round-number {
+        margin-top: 20px;
+        font-size: 1.25rem;
+    }
+
+    .scoreboard {
+        margin-top: 0;
+    }
+
+    .game-name {
+        font-size: 2rem;
+        margin-top: 25px;
+    }
+
+    .game-area {
+        margin-top: 0;
+    }
+
+    .round-number {
+        font-size: 1.25rem;
+    }
+
+    .win {
+        font-size: 1.25rem;
+    }
+
+    .lose {
+        font-size: 1.25rem;
+    }
+
+    .draw {
+        font-size: 1.25rem;
+    }
+
+    .button-style {
+        width: 80px;
+        height: 80px;
+        margin: 0 25px;
+        border: 5px solid #686868;
+    }
+
+    .buttons-area {
+        margin: 0 auto;
+    }
+
+    .button-style::after {
+        font-size: 1.25rem;
+    }
+
+    .button-style:hover {
+        width: 80px;
+        height: 80px;
+        border: 5px solid #686868;
+    }
+
+    .rules {
+        font-size: 1.25rem;
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    #user-image {
+        width: 120px;
+        margin-top: 50px;
+    }
+
+    #computer-image {
+        width: 120px;
+        margin-top: 50px;
+    }
+
+    .player-name-user {
+        margin-top: 50px;
+        font-size: 1rem;
+    }
+
+    .player-name-computer {
+        margin-top: 50px;
+        font-size: 1rem;
+    }
+
+    .game-name {
+        margin-top: 50px;
+    }
+
+    .round-number {
+        margin-top: 20px;
+        font-size: 1rem;
+    }
+
+    .win {
+        font-size: 1rem;
+    }
+
+    .lose {
+        font-size: 1rem;
+    }
+
+    .draw {
+        font-size: 1rem;
+    }
+
+    .game-name {
+        font-size: 1.5rem;
+    }
+
+    .button-style {
+        font-size: 1rem;
+    }
+
+
+    .button-style::after {
+        font-size: 1rem;
+    }
+
+    .rules {
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 320px) {
+
+    #user-image {
+        width: 90px;
+    }
+
+    #computer-image {
+        width: 90px;
+    }
+
+    .player-name-user {
+        margin-top: 50px;
+        font-size: 0.8rem;
+    }
+
+    .player-name-computer {
+        margin-top: 50px;
+        font-size: 0.8rem;
+    }
+
+    .win {
+        color: #3EA62D;
+        font-size: 0.8rem;
+    }
+
+    .lose {
+        color: #FF0000;
+        font-size: 0.8rem;
+    }
+
+    .draw {
+        color: #000000;
+        font-size: 0.8rem;
+    }
+
+    .game-name {
+        margin-top: 10px;
+        font-size: 1.25rem;
+    }
+
+    .player-name {
+        font-size: 0.8rem;
+    }
+
+    .round-number {
+        font-size: 0.8rem;
+    }
+
+    .scoreboard {
+        font-size: 0.8rem;
+    }
+
+    .button-style {
+        width: 70px;
+        height: 70px;
+        margin: 0 15px;
+    }
+
+    .button-style:hover {
+        width: 70px;
+        height: 70px;
+    }
+
+    .button-style::after {
+        font-size: 0.8rem;
+        top: 0;
+    }
+
+    .rules {
+        font-size: 0.8rem;
+        margin: 10px;
+    }
+}
