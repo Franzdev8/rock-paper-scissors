@@ -67,22 +67,22 @@ body {
 }
 
 .round-number {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 .win {
     color: green;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 .lose {
     color: green;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 .draw {
     color: green;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 .buttons-area {
