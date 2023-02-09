@@ -22,6 +22,7 @@ body {
     float: left;
     position: relative;
     left: 12.5%;
+    padding-bottom: 2%;
 }
 
 .player-name-computer {
@@ -29,6 +30,7 @@ body {
     float: right;
     position: relative;
     right: 12.5%;
+    padding-bottom: 2%;
 }
 
 .game-area {
@@ -40,12 +42,14 @@ body {
     width: 280px;
     height: auto;
     float: left;
+    padding-bottom: 2%;
 }
 
 #computer-image {
     width: 280px;
     height: auto;
     float: right;
+    padding-bottom: 2%;
 }
 
 .game-info {
