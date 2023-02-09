@@ -48,20 +48,22 @@ function threeSecondTimer() {
     }, 1000);
 }
 
+
 function displayUserRock() {
 
-    document.getElementById("user-image").src = "assets/images/user-rock.webp";
+    document.getElementById("user-image").src = "assets/images/rock.png";
 }
 
 function displayUserPaper() {
 
-    document.getElementById("user-image").src = "assets/images/user-paper.webp";
+    document.getElementById("user-image").src = "assets/images/paper.png";
 }
 
 function displayUserScissors() {
 
-    document.getElementById("user-image").src = "assets/images/user-scissors.webp";
+    document.getElementById("user-image").src = "assets/images/scissors.png";
 }
+
 
 function returnGame(userAnswer) {
 
@@ -150,19 +152,19 @@ function returnGame(userAnswer) {
 
 function displayComputerRock() {
 
-    document.getElementById("computer-image").src = "assets/images/computer-rock.webp";
+    document.getElementById("computer-image").src = "assets/images/rock.png";
 
 }
 
 function displayComputerPaper() {
 
-    document.getElementById("computer-image").src = "assets/images/computer-paper.webp";
+    document.getElementById("computer-image").src = "assets/images/paper.png";
 
 }
 
 function displayComputerScissors() {
 
-    document.getElementById("computer-image").src = "assets/images/computer-scissors.webp";
+    document.getElementById("computer-image").src = "assets/images/scissors.png";
 
 }
 
