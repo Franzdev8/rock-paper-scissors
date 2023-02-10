@@ -36,8 +36,6 @@ Rock / Paper / Scissors is a fully responsive JavaScript game that will allow us
 
 * I confirmed that this project is responsive and looks clear to the user. All functions were tested on all standard screen sizes using the devtools device bar on Google Chrome.
 
-* I confirmed that all page contents are readable and clear to see and easy to understand.
-
 * I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
 
 ![Lighthouse Image](/assets/images/lighthouse.jpg) 
