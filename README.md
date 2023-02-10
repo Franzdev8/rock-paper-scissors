@@ -30,31 +30,18 @@ Rock / Paper / Scissors is a fully responsive JavaScript game that will allow us
 
 ![Score Image](/assets/images/score.jpg)    
 
-* **Register Page Content**
-    * The register page is there for the user the register their interest in other potential new games to play. 
-    * There are 2 enteries for the user, Name and Email address. These are in a clear text with contrasting background to stand out so the user can easily read the content. 
-    * If the name field isn't entered, the form will tell the user a name needs to be entered. The same as email address, if a valid email address is not entered, it will tell the user the enter a valid email address. This is really useful to the user as it will stop them from submitting the form without the correct information being filled in first. 
-
-![Register Image](/assets/images/register.png) 
-
-* **Social Media Link**
-    * The social media link at the bottom of all pages is to link to my personal Linkedin Page, this link will also open to seperate browser or on mobile device it will take you to the application on your device. This is useful to the user if they want to follow or connect with the creator of the game. 
-
-![Social Links Image](/assets/images/footer.png)
-
 # Testing
 
-* I have tested the game on multiple different browsers including Google, Firefox and Safari. It has also been tested on mutliple different devices for responsiveness including an Iphone 12 Pro Max and a Ipad Pro 12.9inch.
+* I have tested the game on different browsers including Chrome, Firefox, and Safari. 
 
-* I confirm this project is responsive, looks clear to the user and functions on all standard screen sizes using the devtools device bar on Google Chrome.
+* I confirmed that this project is responsive and looks clear to the user. All functions were tested on all standard screen sizes using the devtools device bar on Google Chrome.
 
-* I confirm the navigation, header, home page, play page, register page and the social media links are all readable and clear to see and easy to understand.
+* I confirmed that all page contents are readable and clear to see and easy to understand.
 
-* I can confirm the register form works, it requires an entry in each field and will not let you submit the form without correct entries being entered into the form. It will kick back to the user if it is not entereted correctly and prompt the user what they need to enter. 
+* I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
 
-# Manual Testing
+![Lighthouse Image](/assets/images/lighthouse.jpg) 
 
-* I can confirm by manual testing the game, it runs smooth on desktop and mobile devices. I have tested the game by playing the game and resetting the game to start from scratch. I have also tested the register form and it promts the user to enter field correctly, if not it will not let you submit the form.
 
 # Bugs
 * The bug I came across in Javascript was when creating the form functions, Javascript was not reading the code that was written. I seeked support from CI Tutors and I resolved the bug by creating a seperate Javascript file just for the form page, which then fixed this bug. 
