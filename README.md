@@ -62,25 +62,23 @@ Rock / Paper / Scissors is a fully responsive JavaScript game that will allow us
     * From the source section drop down menu, select Main Branch
     * Once the main branch has been selected, the page will provide the link to the completed website.
 
-The live link can be found here [Rock | Paper | Scissors](https://bradleyparkin.github.io/rock-paper-scissors/)    
+The live link can be found here [Rock / Paper / Scissors](https://franzdev8.github.io/rock-paper-scissors/)    
 
 # Credits
 
 Content
 
-* I have used some basic HTML strcutre code and CSS from the [Love Maths Project](https://bradleyparkin.github.io/love-maths/)
-* The code to create some of the Javascript, CSS and HTML content was taken from this [Youtube Video](https://www.youtube.com/watch?v=QT1ya4Ut40o) for the register form for users. 
-* The code to clear the form once a user has submitted the form was taken from this [Blog](https://bobbyhadz.com/blog/javascript-clear-input-field-after-submit#clear-all-form-fields-after-submitting)
-* I had have tutor support on CSS Media queries.
-* I used this video to get the If statements and functions for the game[Youtube Video](https://www.youtube.com/watch?v=1yS-JV4fWqY)
-* The code to reload the game page if the user wants to start again was taken from [Quackit](https://www.quackit.com/javascript/javascript_refresh_page.cfm)
+* Generating a random word (Rock, Paper or Scissors) from the console - Love Maths (Walkthrough Project).
+
+* Transition CSS - Animates the hover pseduo on the buttons - Love Maths (Walkthrough Project).
+
+* Countdown function - On click of one of the three options a countdown timer appears underneath the round number - Stack Overflow.
+
+* Delay function - Used to display the computer's answer and works with the above countdown function. A further 1-second delay before the alert message informs the user of the round result. - Stack Overflow.
+
 
 Media
 
-* Icons used where taken from [Font Awesome](https://fontawesome.com/icons)
-* Fonts used where taken from [Google Fonts](https://fonts.google.com/)
-* Images used where taken from [vecteezy](https://www.vecteezy.com/free-vector/paper-scissors)
-* Icons for the game where taken from Emojipedia:
- **[Rock](https://emojipedia.org/sign-of-the-horns/)**,
- **[Paper](https://emojipedia.org/scroll/)**,
- **[Scissors](https://emojipedia.org/scissors/)**.
+* The Images used were taken from [Pixabay](https://pixabay.com/de/)
+
+
