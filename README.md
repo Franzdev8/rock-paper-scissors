@@ -14,15 +14,8 @@ Rock / Paper / Scissors is a fully responsive JavaScript game that will allow us
 
 ![Header Image](/assets/images/header.jpg)
 
-* **Home Page Content**
-    * The "Welcome to Rock, Paper, Scissors! Can you beat the Computer? If you can, press PLAY!" is the introduction to the page, welcoming the user to the page and asking if they can beat the computer, press the play button to Play. This question is great for the user as it asks them to do something, ie press the play button to start. It makes it clear on what they need to do.
-    * The rules of the page are there for clear, easy to ready instructions of how the game works and what is included. This is important to the user as if they didnt know how to play rock, paper, scissors they can clearly see how to. This page has clear contrasting colours between the text and the background to make it easy to read on all devices. 
-
-![Home Page Image](/assets/images/home%20page.png)
-
-* **Play Page Content**
-    * The "Play" page has all the content on for the Rock, Paper, Scissors game. This includes a "Restart Game" button. Buttons for Rock, Paper and Scissors and then also the scores of the game below for each player.
-    * The Restart button is there for once the player has had enough of the game and want to start again, this will reload the game to start from fresh. This is useful to the user as they have an easy access button to restart instead of reloading the page manually. 
+* **The Game Features**
+    * Fun images - the use of the images add to the aesthetics of the site and makes it much more appealing than just using text. 
     * The three buttons to click for Rock, Paper and Scissors are in easy view for the user, when they are hovered over with a mouse they enlarge to show the user that you are on a specific choice. This is to show the user that they are clicking a certain button. 
     * The scores for Computer and Player are below the game buttons. These stay in the same place at all times and count upwards as the game is played, depending on which player winds the hand each time. These are in a clear font with contrasting background to make it easy to read for the user. The user will benefit from this feature as they can then see what their score is to the computer and who is winning.
     * The icons that appear as you click the buttons to play are the winning and losing choices. If you win, your score will increase by 1, if the computer wins their score will increase by 1. If you lose, your Icon will have a lower opacity to highlight which player has won and lost. Lower opacity means you have lost that hand. This makes it easy and clear for the user to read what score they have got and also which choice they have entered. 
