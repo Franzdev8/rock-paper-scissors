@@ -1,100 +1,101 @@
-Five Minutes Fitness
-Five Minutes Fitness is a website providing short workouts for a community with a tight time schedule.
+Love Maths
+In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience.
 
-The website is aimed at people who want effective and efficient workouts for the body, mind and soul. All workouts consist of a four minute bodywheight and a one minute mindfullness workout and are sent via link to the user completely for free.
+For example, Love Maths is a site that hopes to demonstrate how pure JavaScript works in a real-world context. The site will be targeted toward people who not only love to implement more advanced JavaScript concepts but also maths. Love Maths is a fully responsive JavaScript maths game that will allow users to add, subtract, multiply and divide numbers.
 
-On the homepage users will find informations about the concept of the site as well as an overview about the creators of the self-development service. It is also possible to sign up to the free fitness service from there.
-
-Responsive
+Responsice Mockup
 
 Features
-Navigation Bar
+In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-At the left top of the page is the website logo FIVE MINUTES FITNESS that links to the top of the home page.
+Existing Features
+The Love Maths Logo and Heading
 
-At the right top of the page (when you are looking on a smaller device, beneath the logo) are links to Home, About Us and Sign Up. With those you can navigate to different pages on the website.
+Featured at the top of the page, the Love Maths logo and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
+Logo
 
-Screen shots of logo and menu links are below.
+The Game Area
 
-In the footer on the bottom of the page are icons for different social media portals, these are links that will open the respective social media in a new tab when clicked on.
+This section will allow the user to play the maths game. The user will be able to easily see icons for addition, subtraction, multiplication, and division games.
+The user will be able to select the type of maths game they will be playing by clicking on the different icons.
+Game
 
-Navigation
+The Question section
 
-The Landing Page Picture
+The question section is where the user will be able to see the elementary arithmetic question to answer as part of the game. The user will be able answer the questions in the answer box provide
+The user will be able to submit their answer and a pop-up will make it known to the user if they answered correctly.
+Question
 
-The home section of the page includes a image of a woman and a man working out together.
-The concept of the website is supposed to be made visible by this.
-Hero Image
+The Score Area
 
-The for your Body, Mind and Soul section
+This section will allow the user to see exactly how many correct and incorrect answers they have provided.
+score
 
-This section provides the informations about the concept and the conditons of the website.
+For some/all of your features, you may choose to reference the specific project files that implement them.
 
-The explinations of the concept give a detailed overview about the free fitness-service.
+In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-Community Culture
-
-The About Us section
-
-Information about the providers of the free fitness-service can be found here.
-
-A detailed explination of the reasons for offering such a usefull service for free are given there as well.
-
-About Us
-
-The Sign Up section
-
-This page gives the user the opportunity to get signed up to Five Minutes Fitness in order to start their personel development.
-It is mandatory to submit the full name and a email address.
-Sign Up
-
-The Footer
-
-At the footer there are links to social media sites for Five Minutes Fitness. The links will open to a new tab to allow easy navigation for the user.
-
-The footer is of use for the visitor of the page as it encourages them to keep following the social media accounts of the site.
-Also included is the contact information for the user.
-Footer
-
+Features Left to Implement
+Another feature idea
 Testing
-It was tested by me that this site works in different browsers: Chrome, Safari and Firefox.
-I confirmed that the site is responsive and looks good on different devices by using devtools device toolbar.
-I confirmed that the different pages on the site are all simple to understand and simple to read.
-I have confirmed that the form works, and also that all input entries except for the textarea element are required.
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
 Validator Testing
 HTML
-
 No errors were returned when passing through the official W3C validator
 CSS
-
 No errors were found when passing through the official (Jigsaw) validator
-Accessibility
+JavaScript
+No errors were found when passing through the official Jshint validator
+The following metrics were returned:
+There are 11 functions in this file.
+Function with the largest signature takes 2 arguments, while the median is 0.
+Largest function has 10 statements in it, while the median is 3.
+The most complex function has a cyclomatic complexity value of 4 while the median is 2.
+Unfixed Bugs
+You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
-I confirmed that the chosen fonts and colors are accessable using lighthouse in devtools.
-
-Home page
-
-Lighthouse Home Page
-
-About Us page
-Lighthouse About Us Page
-
-Sign Up page
-Lighthouse Sign Up Page
-
-Bugs
-No unfixed bugs were found in the project.
 Deployment
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+
 The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, please navigate to the Settings tab.
-From the source section drop-down menu, please select the Master Branch.
-Please refresh the page, afterwards the link should be provided.
-The live link can be found here - https://franzdev8.github.io/five-minutes-fitness/index.html
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here - https://code-institute-org.github.io/love-maths/
 
 Credits
+In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
+
+You can break the credits section up into Content and Media, depending on what you have included in your project.
+
 Content
-The code to create the social media links was taken from the CI Love running project.
-The code for the sign up page layout and submit form was taken from the CI Love running project.
-The icons in the footer and the sign up page were taken from Font Awesome
+The text for the Home page was taken from Wikipedia Article A
+Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
+The icons in the footer were taken from Font Awesome
 Media
-The images used in this project were taken from Pexels
+The photos used on the home and sign up page are from This Open Source site
+The images used for the gallery page were taken from this other open source site
+Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
+
+Other General Project Advice
+Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work!
+
+One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through this article by Chris Beams on How to Write a Git Commit Message
+
+Make sure to keep the messages in the imperative mood
+When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
+
+For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept.
+Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
+
+Writing Your Best Code
+HTML & CSS Coding Best Practices
+Google HTML/CSS Style Guide
+Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process!
