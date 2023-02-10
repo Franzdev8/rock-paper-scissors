@@ -16,9 +16,17 @@ Rock / Paper / Scissors is a fully responsive JavaScript game that will allow us
 
 * **The Game Features**
     * Fun images - the use of the images adds to the aesthetics of the site and makes it much more appealing than only using text. 
+
+![User Image](/assets/images/user.png)    
+![Computer Image](/assets/images/computer.png)
+
     * The three buttons to click for Rock, Paper and Scissors are easily visible for the user, when they are hovered over with a mouse they enlarge to show the user the specific choice. This is to show the user that they are clicking a certain button. 
+
+[Buttons Image](/assets/images/buttons.jpg)
+
+    * **The Game Scores**
+
     * The scores for Computer and Player are below the game buttons. These stay in the same place at all times and count upwards as the game is played, depending on which player winds the hand each time. These are in a clear font with contrasting background to make it easy to read for the user. The user will benefit from this feature as they can then see what their score is to the computer and who is winning.
-    * .... If you win, your score will increase by 1, if the computer wins the score of the computer will increase by 1. This makes it easy and clear for the user to read their score.
 
 ![Play Page Image](/assets/images/play-page.png)
 ![Icons Image](/assets/images/scores.png)    
