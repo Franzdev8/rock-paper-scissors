@@ -4,7 +4,7 @@ The Rock, Paper, Scissors game is a game played with a chance of winning against
 
 Rock / Paper / Scissors is a fully responsive JavaScript game that will allow users to enjoy some entertainment for relaxation.
 
-![Responsive Image](/assets/images/responsive.png)
+![Responsive Image](/assets/images/responsive.jpg)
 
 # Features
 
@@ -39,7 +39,6 @@ Rock / Paper / Scissors is a fully responsive JavaScript game that will allow us
 * I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
 
 ![Lighthouse Image](/assets/images/lighthouse.jpg) 
-
 
 # Bugs
 * No bugs were found in the development of this website. 
