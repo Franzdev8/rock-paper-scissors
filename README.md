@@ -46,12 +46,9 @@ Rock / Paper / Scissors is a fully responsive JavaScript game that will allow us
 
 # Validator Testing
 * **HTML**
-    * No errors were found when passing through the official W3C HTML Validator.
+    * Six errors were returned when passing through the official W3C HTML Validator. Due to lack of time, the errors have not been fixed yet.
 * **CSS**
-    * No errors were found when passing through the official W3C CSS Validator.
-
-
-![lighthouse image](/assets/images/lighthouse.png)
+    * Thirteen errors were returned when passing through the official W3C CSS Validator. Due to lack of time, the errors have not been fixed yet.
 
 # Deployment
 
@@ -73,7 +70,6 @@ Content
 * Countdown function - On click of one of the three options a countdown timer appears underneath the round number - Stack Overflow.
 
 * Delay function - Used to display the computer's answer and works with the above countdown function. A further 1-second delay before the alert message informs the user of the round result. - Stack Overflow.
-
 
 Media
 
