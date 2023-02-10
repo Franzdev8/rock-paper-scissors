@@ -44,15 +44,14 @@ Rock / Paper / Scissors is a fully responsive JavaScript game that will allow us
 
 
 # Bugs
-* The bug I came across in Javascript was when creating the form functions, Javascript was not reading the code that was written. I seeked support from CI Tutors and I resolved the bug by creating a seperate Javascript file just for the form page, which then fixed this bug. 
+* No bugs were found in the development of this website. 
 
 # Validator Testing
 * **HTML**
-    * No errors were found when passing through the offical W3C HTML Validator
+    * No errors were found when passing through the official W3C HTML Validator.
 * **CSS**
-    * No errors were found when passing through the offical W3C CSS Validator
-* **Javascript**
-    * No errors were found when passing through the official JSHINT Validator
+    * No errors were found when passing through the official W3C CSS Validator.
+
 
 ![lighthouse image](/assets/images/lighthouse.png)
 
