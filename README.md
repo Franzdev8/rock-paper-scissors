@@ -12,7 +12,7 @@ Rock / Paper / Scissors is a fully responsive JavaScript game that will allow us
     * At the top of the page, the header shows the name of the page (Rock, Paper, Scissors). This is centered in the middle of the page to be easy to read, and it´s the first thing you read as you see the page. It uses a bright red color to contrast with the background.
     * The header clearly shows to the user this page is offering a Rock, Paper, Scissors game.
 
-![Header Image](/assets/images/header.png)
+![Header Image](/assets/images/header.jpg)
 
 * **Home Page Content**
     * The "Welcome to Rock, Paper, Scissors! Can you beat the Computer? If you can, press PLAY!" is the introduction to the page, welcoming the user to the page and asking if they can beat the computer, press the play button to Play. This question is great for the user as it asks them to do something, ie press the play button to start. It makes it clear on what they need to do.
